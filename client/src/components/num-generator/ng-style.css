@@ -1,0 +1,17 @@
+.numgen-wrapper {
+    min-height: 300px;
+    width: 240px;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 0 4px 12px 4px;
+    transition: all 75ms;
+    flex-direction: column;
+}
+.numgen-wrapper:hover {
+    box-shadow: 3px 4px black;
+}
+
+.child-component-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

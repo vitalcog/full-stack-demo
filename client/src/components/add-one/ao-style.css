@@ -1,0 +1,22 @@
+.add-one {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+    width: 58px;
+    padding-bottom: 4px;
+    border-radius: 100%;
+    background-image: linear-gradient(to top right, #00cc00, #eaff00);
+    top: 18px;
+    left: 12px;
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 2px black;
+    opacity: .6;
+    transition: opacity 50ms;
+}
+.add-one:hover {
+    opacity: 1;
+    cursor: pointer;
+}

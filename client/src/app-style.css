@@ -1,0 +1,22 @@
+.app-wrapper {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.app-middle {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 85px;
+    flex-grow: 1;
+    position: relative;
+}
+
+.border-box-gl { /* global style class */
+    box-sizing: border-box;
+}
+
+.flex-container-gl { /* global style class */
+    display: flex;
+}
